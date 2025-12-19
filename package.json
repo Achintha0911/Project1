@@ -1,0 +1,23 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Day 01:\r -set up development environment\r -Locked tech stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Achintha0911/Project1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Achintha0911/Project1/issues"
+  },
+  "homepage": "https://github.com/Achintha0911/Project1#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
