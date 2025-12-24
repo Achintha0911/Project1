@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
 
-app.get("/api/message", (req, res) => {
-    res.json({
-        message: "Hello from backend" // Json object
-    });
-});
+
+app.use(express.json());
+
+const messageRoutes = require("./Routes/messages.routes");
+app.use("/api", messageRoutes);
 
 const port = 3000;
 app.listen(3000, () => {
